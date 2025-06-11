@@ -37,6 +37,39 @@ body {
     display: block;
 }
 
+/* FOOTER STYLING */
+.footer {
+    background: linear-gradient(to right, #2b2bb2, #1786d0);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffe082;
+    /* Optional highlight */
+}
+
+
 
 article,
 aside,
